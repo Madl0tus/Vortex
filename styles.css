@@ -1,0 +1,18 @@
+body{
+    background:rgb(109, 109, 109);
+        position: relative;
+        }
+
+        /* Desktop background */
+        @media (min-width: 1024px) {
+            body {
+                background-color: #121212;
+            }
+        }
+
+        /* Mobile / tablet background */
+        @media (max-width: 1023px) {
+            body {
+                background-color: #3a3a3a;
+            }
+        }
